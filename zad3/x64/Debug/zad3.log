@@ -1,0 +1,5 @@
+﻿  random.cpp
+  zad3.cpp
+C:\Users\knovi\OneDrive\Documents\progA\zad3\zad3.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  zad3.vcxproj -> C:\Users\knovi\OneDrive\Documents\progA\zad3\x64\Debug\zad3.exe

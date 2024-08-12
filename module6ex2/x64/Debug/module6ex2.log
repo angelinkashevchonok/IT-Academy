@@ -1,0 +1,34 @@
+﻿  module6ex2.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(2120,9): warning C4200: нестандартное расширение: массив нулевого размера в структуре (объединении)
+  (компиляция исходного файла "module6ex2.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(2120,9):
+  Этот член будет пропущен конструктором, установленным по умолчанию, или оператором назначения копии или перемещения
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(2120,9):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\knovi\OneDrive\Documents\progA\module6ex2\module6ex2.cpp(14,39):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<int []> std::make_shared<int[],int&>(int &)"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2769,26):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Ref_count_obj2<int []>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2107,33):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Wrap<int []>"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22): error C2440: =: невозможно преобразовать "_Ux (*const )" в "int *"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22): error C2440:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22): error C2440:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22): error C2440:             _Ux=int []
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22): error C2440:         ]
+  (компиляция исходного файла "module6ex2.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22):
+  Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1850,22):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\knovi\OneDrive\Documents\progA\module6ex2\module6ex2.cpp(14,39):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<int []> std::make_shared<int[],int&>(int &)"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2771,9):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::shared_ptr<int []>::_Set_ptr_rep_and_enable_shared<_Ty>(_Ux (*const ),std::_Ref_count_base *const ) noexcept"
+          with
+          [
+              _Ty=int [],
+              _Ux=int []
+          ]
+  

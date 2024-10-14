@@ -1,0 +1,5 @@
+﻿  Module19_thread.cpp
+C:\Users\knovi\OneDrive\Documents\progA\Module19_thread\Module19_thread.cpp(13,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  algorithms.cpp
+  Создание кода...
+  Module19_thread.vcxproj -> C:\Users\knovi\OneDrive\Documents\progA\Module19_thread\x64\Debug\Module19_thread.exe
